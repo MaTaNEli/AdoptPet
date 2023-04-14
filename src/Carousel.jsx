@@ -1,5 +1,8 @@
 import { Component } from "react";
 
+
+//not in use
+
 class Carousel extends Component {
   state = {
     active: 0,
