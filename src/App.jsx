@@ -26,8 +26,8 @@ const App = () => {
           </header>
           <h1>Adopt Me!</h1>
           <Routes>
-            <Route path="/details/:id" element={<Details />} />
             <Route path="/" element={<SearchParams />} />
+            <Route path="/details/:id" element={<Details />} />
           </Routes>
         </AdoptedPetContext.Provider>
       </QueryClientProvider>
